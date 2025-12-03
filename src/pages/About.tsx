@@ -2,7 +2,7 @@ import { Leaf, Heart, Users, Target, ArrowRight, Monitor, Globe, Sparkles, Hands
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import farmImage from '@/assets/organic-farm.jpg';
-import founderImage from '@/assets/founder-akshay.jpg';
+import founderImage from '@/assets/founder.jpeg';
 
 const values = [
   {
