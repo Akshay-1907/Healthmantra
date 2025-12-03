@@ -170,7 +170,7 @@ const Contact = () => {
                 <div className="space-y-6">
                   {/* WhatsApp */}
                   <a 
-                    href="https://whatsapp.com/channel/0029VaYjYaS9Gv7lWhwn1E0w"
+                    href="https://whatsapp.com/channel/0029VbBWzFh7YSd57xGOL41I"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 p-5 bg-card rounded-xl border border-border hover-lift group"
