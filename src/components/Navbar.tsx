@@ -96,7 +96,7 @@ const Navbar = () => {
               ))}
               <Button variant="hero" className="mt-2" asChild>
                 <a 
-                  href="https://whatsapp.com/channel/0029VaYjYaS9Gv7lWhwn1E0w" 
+                  href="https://whatsapp.com/channel/0029VbBWzFh7YSd57xGOL41I" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
