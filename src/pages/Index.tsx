@@ -158,7 +158,7 @@ const Index = () => {
             </p>
             <Button variant="hero" size="xl" className="bg-cream text-forest hover:bg-cream/90" asChild>
               <a 
-                href="https://whatsapp.com/channel/0029VaYjYaS9Gv7lWhwn1E0w" 
+                href="https://whatsapp.com/channel/0029VbBWzFh7YSd57xGOL41I" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
