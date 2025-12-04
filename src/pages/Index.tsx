@@ -146,7 +146,66 @@ const Index = () => {
         </div>
       </section>
 
-      
+        {/* Founder Section */}
+      <section className="section-padding">
+        <div className="container-page">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image */}
+            <div className="relative animate-fade-up">
+              <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-elevated">
+                <img 
+                  src={founderImage} 
+                  alt="Akshay - Founder of HealthMantra" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Decorative elements */}
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-full -z-10" />
+              <div className="absolute -top-4 -left-4 w-16 h-16 bg-accent/20 rounded-full -z-10" />
+            </div>
+
+            {/* Content */}
+            <div className="animate-fade-up delay-100">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                <Sparkles className="w-4 h-4" />
+                Meet the Founder
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+                About Akshay
+              </h2>
+              <p className="text-xl text-primary font-medium mb-6">
+                Founder of HealthMantra
+              </p>
+              
+              <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+                <p className="text-lg leading-relaxed">
+                  Hi, I am <strong className="text-foreground">Akshay</strong>, and I welcome you to the HealthMantra journey — 
+                  a movement toward organic living, natural healing, and a healthier lifestyle.
+                </p>
+                
+                <p className="leading-relaxed">
+                  Coming from an IT background, I spent years in a world of screens, deadlines, and digital pressure. 
+                  During this time, I realized something important:
+                </p>
+                
+                <blockquote className="border-l-4 border-primary pl-4 italic text-foreground bg-sage-light py-3 pr-4 rounded-r-lg">
+                  Technology can build our future, but health builds our life.
+                </blockquote>
+                
+                <p className="leading-relaxed">
+                  I saw many students, professionals, and young people trapped in unhealthy routines — poor diet, stress, 
+                  irregular sleep, and no awareness of natural remedies. At the same time, I saw farmers struggling, 
+                  despite growing some of the most healing plants on earth.
+                </p>
+                
+                <p className="leading-relaxed text-foreground font-medium">
+                  That is where the idea for HealthMantra was born.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
    
       {/* CTA Section */}
       <section className="section-padding gradient-nature">
