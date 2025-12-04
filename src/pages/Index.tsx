@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Leaf, Heart, Users, Sprout } from 'lucide-react';
+import { ArrowRight, Leaf, Heart, Users, Sprout, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import PostCard from '@/components/PostCard';
